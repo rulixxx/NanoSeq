@@ -112,4 +112,3 @@ RUN adduser --disabled-password --gecos '' ubuntu && chsh -s /bin/bash && mkdir 
 USER    ubuntu
 WORKDIR /home/ubuntu
 
-CMD ["/bin/bash"]
